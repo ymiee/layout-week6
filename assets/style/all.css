@@ -24679,7 +24679,7 @@ fieldset:disabled .btn {
 }
 
 .footerBg {
-  background: url("/assets/images/footer-bg.jpg") center no-repeat;
+  background: url("../images/footer-bg.jpg") center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
