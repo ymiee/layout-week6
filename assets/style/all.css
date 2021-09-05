@@ -24531,7 +24531,13 @@ fieldset:disabled .btn {
 }
 
 .category__item {
-  overflow: scroll;
+  overflow-x: scroll;
+}
+
+@media (min-width: 576px) {
+  .category__item {
+    overflow-x: auto;
+  }
 }
 
 .category a {
@@ -24545,6 +24551,50 @@ fieldset:disabled .btn {
 
 .active {
   border-bottom: 1px solid #E31277;
+}
+
+.footerBg {
+  background: url("../images/footer-bg.jpg") center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+.border-white {
+  border-radius: 4px 0 0 4px;
+}
+
+.border-primary {
+  border-radius: 0 4px 4px 0;
+}
+
+.sign:hover, .sign :focus {
+  background-color: #630834;
+}
+
+.guess-img {
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 21.5625rem;
+}
+
+@media (min-width: 576px) {
+  .guess-img {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+
+.guess-img1 {
+  background-image: url("../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg");
+}
+
+.guess-img2 {
+  background-image: url("../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg");
+}
+
+.guess-img3 {
+  background-image: url("../images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg");
 }
 
 .img-first {
@@ -24635,67 +24685,6 @@ fieldset:disabled .btn {
   }
 }
 
-.guess-img {
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-  min-height: 21.5625rem;
-}
-
-@media (min-width: 576px) {
-  .guess-img {
-    min-width: 21.875rem;
-    min-height: 21.875rem;
-  }
-}
-
-.guess-img1 {
-  background-image: url("../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg");
-}
-
-.guess-img2 {
-  background-image: url("../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg");
-}
-
-.guess-img3 {
-  background-image: url("../images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg");
-}
-
-.mySwiper {
-  width: 100%;
-  min-height: 1291px;
-}
-
-@media (min-width: 576px) {
-  .mySwiper {
-    min-height: 418px;
-  }
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-}
-
-.footerBg {
-  background: url("../images/footer-bg.jpg") center no-repeat;
-  background-size: cover;
-  min-height: 400px;
-}
-
-.border-white {
-  border-radius: 4px 0 0 4px;
-}
-
-.border-primary {
-  border-radius: 0 4px 4px 0;
-}
-
-.sign:hover, .sign :focus {
-  background-color: #630834;
-}
-
 .design-img {
   background-position: center;
   background-size: cover;
@@ -24703,58 +24692,15 @@ fieldset:disabled .btn {
 }
 
 .design-img1 {
-  background: url("../images/alina-grubnyak-1.jpg");
+  background-image: url("../images/alina-grubnyak-1.jpg");
 }
 
 .design-img2 {
-  background: url("../images/alina-grubnyak-2.jpg");
+  background-image: url("../images/alina-grubnyak-2.jpg");
 }
 
 .design-img3 {
-  background: url("../images/alina-grubnyak-3.jpg");
-}
-
-.guess-img {
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-  min-height: 21.5625rem;
-}
-
-@media (min-width: 576px) {
-  .guess-img {
-    min-width: 21.875rem;
-    min-height: 21.875rem;
-  }
-}
-
-.guess-img1 {
-  background-image: url("../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg");
-}
-
-.guess-img2 {
-  background-image: url("../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg");
-}
-
-.guess-img3 {
-  background-image: url("../images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg");
-}
-
-.mySwiper {
-  width: 100%;
-  min-height: 1291px;
-}
-
-@media (min-width: 576px) {
-  .mySwiper {
-    min-height: 418px;
-  }
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
+  background-image: url("../images/alina-grubnyak-3.jpg");
 }
 
 /*# sourceMappingURL=all.css.map */
