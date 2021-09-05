@@ -15,3 +15,26 @@
     background-color: $secondary;
   }
 }
+
+.guess-img {
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+
+.guess-img1 {
+  background-image: url("../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg");
+}
+
+.guess-img2 {
+  background-image: url("../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg");
+}
+
+.guess-img3 {
+  background-image: url("../images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg");
+}

@@ -4,7 +4,8 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-@import "../style/layout/navbar";
-@import "../style/layout/index";
-@import "../style/layout/footer";
-@import "../style/layout/design";
+@import "./layout/navbar";
+@import "./layout/footer";
+
+@import "./pages/index";
+@import "./pages/design";

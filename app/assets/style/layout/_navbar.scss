@@ -18,7 +18,10 @@
 
 .category {
   &__item {
-    overflow: scroll;
+    overflow-x: scroll;
+    @include media-breakpoint-up(sm) {
+      overflow-x: auto;
+    }
   }
   a {
     white-space: nowrap;

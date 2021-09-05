@@ -1,0 +1,65 @@
+//hot
+
+.img-first {
+  background: url("../images/alina-grubnyak-1.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+.img-second {
+  background: url("../images/alina-grubnyak-2.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+.img-third {
+  background: url("../images/alina-grubnyak-3.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+.hot-content {
+  flex: 1;
+  max-width: 540px;    
+  &-text {
+    min-height: 120px;
+    @include  media-breakpoint-up(sm) {
+      font-size: 1.25rem;
+    }
+  }
+  &-sm {
+    max-width: 29px;
+    min-height: auto;
+  }
+}
+
+//live
+
+.live-bg {  
+  background: url("../images/people2.png") center no-repeat;
+  background-size: cover;
+  min-height: 29rem;
+  @include media-breakpoint-up(sm) {
+    min-height: 30.125rem;
+  }
+}
+.bg-mask {
+  background: rgba(25, 0, 20, 0.8);
+  min-height: 29rem;
+  @include media-breakpoint-up(sm) {
+    min-height: 30.125rem;
+    max-width: 27.8125rem;
+  }
+}
