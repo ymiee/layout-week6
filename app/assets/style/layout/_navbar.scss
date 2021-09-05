@@ -1,0 +1,33 @@
+.navBg {
+  background: url("../images/ricardo-gomez-angel-UrOZTfXT0h0-unsplash (1).jpg") center no-repeat;
+  background-size: cover;
+  min-height: 480px;
+}
+
+.buy {
+  &:hover, :focus {
+    background-color: $secondary;    
+  }
+}
+.detailed {
+  &:hover, :focus {
+    background-color: $primary;
+    box-shadow: inset 0 0 0 12px $secondary;
+  }
+}
+
+.category {
+  &__item {
+    overflow: scroll;
+  }
+  a {
+    white-space: nowrap;
+    &:hover {
+      background-color: $primary;
+      color: $secondary;
+    }
+  }
+}
+.active {
+  border-bottom: 1px solid $primary;
+}

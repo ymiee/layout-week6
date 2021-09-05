@@ -1,0 +1,108 @@
+//hot
+
+.img-first {
+  background: url("../images/alina-grubnyak-1.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+.img-second {
+  background: url("../images/alina-grubnyak-2.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+.img-third {
+  background: url("../images/alina-grubnyak-3.jpg") center no-repeat;
+  background-size: cover;
+  min-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+.hot-content {
+  flex: 1;
+  max-width: 540px;    
+  &-text {
+    min-height: 120px;
+    @include  media-breakpoint-up(sm) {
+      font-size: 1.25rem;
+    }
+  }
+  &-sm {
+    max-width: 29px;
+    min-height: auto;
+  }
+}
+
+//live
+
+.live-bg {  
+  background: url("../images/people2.png") center no-repeat;
+  background-size: cover;
+  min-height: 29rem;
+  @include media-breakpoint-up(sm) {
+    min-height: 30.125rem;
+  }
+}
+.bg-mask {
+  background: rgba(25, 0, 20, 0.8);
+  min-height: 29rem;
+  @include media-breakpoint-up(sm) {
+    min-height: 30.125rem;
+    max-width: 27.8125rem;
+  }
+}
+
+//guess
+.guess-img {
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  // max-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+
+.guess-img1 {
+  background-image: url("../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg");
+}
+
+.guess-img2 {
+  background-image: url("../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg");
+}
+
+.guess-img3 {
+  background-image: url("../images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg");
+}
+
+.mySwiper {
+  width: 100%;
+  // height: 100%;
+  min-height: 1291px;
+  @include media-breakpoint-up(sm) {
+    min-height: 418px;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}

@@ -1,0 +1,57 @@
+.design-img {
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+.design-img1 {
+  background: url("../images/alina-grubnyak-1.jpg");
+}
+.design-img2 {
+  background: url("../images/alina-grubnyak-2.jpg");
+}
+.design-img3 {
+  background: url("../images/alina-grubnyak-3.jpg");
+}
+
+
+.guess-img {
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  // max-width: 21.5625rem;
+  min-height: 21.5625rem;
+  @include media-breakpoint-up(sm) {
+    min-width: 21.875rem;
+    min-height: 21.875rem;
+  }
+}
+
+.guess-img1 {
+  background-image: url("../images/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg");
+}
+
+.guess-img2 {
+  background-image: url("../images/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg");
+}
+
+.guess-img3 {
+  background-image: url("../images/museums-victoria-kiDwVL_5ZBY-unsplash (1).jpg");
+}
+
+.mySwiper {
+  width: 100%;
+  // height: 100%;
+  min-height: 1291px;
+  @include media-breakpoint-up(sm) {
+    min-height: 418px;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
